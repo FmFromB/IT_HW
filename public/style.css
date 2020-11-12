@@ -1,0 +1,17 @@
+.custom-container {
+    color: black;
+    margin-top: 3%;
+    background: linear-gradient(to top left, #8EC5FC, #E0C3FC);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.slide-fade-enter-active {
+    transition: all 1s ease;
+}
+
+.slide-fade-enter {
+    transform: translateX(10px);
+    opacity: 0;
+}
+
